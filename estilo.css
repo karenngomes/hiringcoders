@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(180, 180, 180);
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+}
+
+#conteudo {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
