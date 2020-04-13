@@ -70,3 +70,50 @@ h3 {
     margin: 0px 10px;
     text-align: justify;
 }
+
+#rodape {
+    background-color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#redesSociais {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+#redesSociais img {
+    width: 40px;
+}
+
+#rede {
+    margin: 5px auto;
+}
+
+#email {
+    margin-right: 50px;
+}
+
+#receba {
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(80, 80, 250);
+    width: 100px;
+    height: 60px;
+    border: rgb(80, 80, 250) 1px solid;
+    color: white;
+    font-size: 20px;
+    box-shadow: blue 2px 2px 5px;
+}
