@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  background-color: white;
+}
+
+#imagemLogo {
+  margin-bottom: 30px;
+}
+
+#logoLoja {
+  width: 100%;
+}
+
+#tituloDestaque {
+  text-align: center;
+}
