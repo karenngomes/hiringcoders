@@ -2,7 +2,7 @@ body {
   background-color: grey;
 }
 
-.container {
+.container, .container-fluid {
   background-color: white;
 }
 
