@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: grey;
 }
 
 .container {
@@ -18,6 +18,17 @@ body {
   text-align: center;
 }
 
-h5, h6 {
+h5,
+h6 {
   text-align: center;
+}
+
+#rodape {
+  padding-top: 50px;
+  color: white;
+  background-color: darkgrey;
+}
+
+#rodape img {
+  width: 30px;
 }
