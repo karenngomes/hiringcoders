@@ -17,3 +17,7 @@ body {
 #tituloDestaque {
   text-align: center;
 }
+
+h5, h6 {
+  text-align: center;
+}
