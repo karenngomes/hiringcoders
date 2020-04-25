@@ -25,15 +25,18 @@ function pop() {
   }
 }
 
-push(10);
-push(20);
-push(30);
+/* ----- Convert decimal to binary ----- */
 
-console.log(stack);
+var number = 10;
 
-console.log(pop());
-console.log(pop());
-console.log(pop());
-console.log(pop());
+while (number !== 0) {
+  var rest = parseInt(number % 2);
+  push(rest);
+  number = parseInt(number / 2);
+}
+
+while (!isEmpty()) {
+  console.log(pop());
+}
 
 
